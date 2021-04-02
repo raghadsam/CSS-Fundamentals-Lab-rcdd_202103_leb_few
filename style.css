@@ -10,9 +10,8 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width : 50%;
 }
-a{
+nav a{
   padding-left:10px;
   padding-right: 10px;
   background-color: grey;
@@ -23,13 +22,15 @@ nav{
 figcaption{
   text-align: center;
 }
- #featured-property~p{
+ #featured-property p{
   width: 800px;
   text-align: center;
+  margin : 0 auto;
 }
-#details{
+#details div{
   display: block;
   background-color: red;
   text-align: center;
-  float:left;
-  }
+  float: left;
+  width: 25%
+  }                            
